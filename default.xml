@@ -102,7 +102,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" remote="github" revision="cm-13.0" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
@@ -121,9 +121,16 @@
   <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="mr" revision="mr" />
   <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="mr" revision="mr" />
 
+  <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" revision="cm-13.0" remote="github" />
+  <project name="CyanogenMod/android_device_sony_togari" path="device/sony/togari" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-13.0" />
+  
+  <project path="vendor/sony" name="themuppets/proprietary_vendor_sony" revision="cm-13.0" remote="github" />
+  
 <!-- EXTRA -->
   <project name="extra" path="extra" remote="mr" revision="mr" />
-
-
 
 </manifest>
